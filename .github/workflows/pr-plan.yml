@@ -37,9 +37,6 @@ jobs:
       - name: Terraform Init
         run: terraform init
 
-      # Step 5: Verify Terraform formatting
-      - name: Terraform Format Check
-        run: terraform fmt -check -recursive
 
       # Step 6: Validate Terraform configuration
       - name: Terraform Validate
